@@ -1,0 +1,10 @@
+# Python requirements for Sales Forecasting Project
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+statsmodels
+prophet
+jupyter
+plotly
