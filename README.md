@@ -26,7 +26,8 @@ sales-forecasting/
 ├── visuals/
 │ └── prophet_forecast_plot.png # Example forecast output
 │
-├── sample_data.csv # Truncated version of main dataset for quick testing
+├── data
+│ └── sample_merged_sales_data.csv # Truncated version of main dataset for quick testing
 ├── README.md # Project overview and instructions
 ├── requirements.txt # Python dependencies
 ```
