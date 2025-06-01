@@ -17,14 +17,13 @@ To build and compare forecasting models (SARIMA and Prophet) that predict weekly
 ## Project Structure
 ```
 sales-forecasting/
-│
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb # Merges and processes raw data
-│ ├── 02_model_comparison.ipynb # LassoCV modeling and residual diagnostics
-│ ├── 03_forecasting.ipynb # SARIMA vs Prophet forecasting and evaluation
+│ ├── eda.ipynb # Merges and processes raw data
+│ ├── model.ipynb # LassoCV modeling and residual diagnostics
+│ ├── forecasting.ipynb # SARIMA vs Prophet forecasting and evaluation
 │
 ├── visuals/
-│ └── prophet_forecast_plot.png # Example forecast output
+│ └── forecast_rmse_comparison.png # Comparing forecast metrics
 │
 ├── data
 │ └── sample_merged_sales_data.csv # Truncated version of main dataset for quick testing
